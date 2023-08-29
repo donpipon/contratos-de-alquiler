@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App.js';
+import FakeApp from './FakeApp.js';
 import reportWebVitals from './reportWebVitals';
 
 
@@ -15,7 +15,7 @@ const root = ReactDOM.createRoot(document.querySelector('#root'));
 //root.render(<h1>PRUEBA</h1>)
 root.render(
   <React.StrictMode>
-    <App />
+    <FakeApp />
   </React.StrictMode>
 );
 
