@@ -1,3 +1,5 @@
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +13,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --primary: #4CAF50;
+  --secondary: #FFC107;
+  --light-gray: #DADCE0;
+  --dark: #222;
+}
+
+body {
+  margin: 30px;
+}
+
+.btn {
+  padding: 10px 20px;
+  cursor: pointer;
+  min-width: 100px;
+  border: 0;
+  border-radius: 3px;
+  font-size: 16px;
+  color: white;
+  transition: opacity 180ms ease-out, transform 180ms ease-out;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+.btn:active {
+  transform: translate(1px, 1px);
+}
+.btn-primary {
+  background-color: var(--primary);
+}
+.btn-outline {
+  border: 1px solid var(--dark);
+  color: var(--dark);
+}
+
+.app-front {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 20px;
+}
+

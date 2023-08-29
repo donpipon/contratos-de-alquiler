@@ -1,15 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import ContractGenerator from './ContractGenerator';
-import App from './App';
+import App from './App.js';
 import reportWebVitals from './reportWebVitals';
+
+
+// https://formik.org/
+// https://react-hook-form.com/
+// https://github.com/immerjs/immer
+// https://github.com/immutable-js/immutable-js
+
 
 const root = ReactDOM.createRoot(document.querySelector('#root'));
 //root.render(<h1>PRUEBA</h1>)
 root.render(
   <React.StrictMode>
-    <ContractGenerator />
+    <App />
   </React.StrictMode>
 );
 
